@@ -58,7 +58,7 @@
         android:layout_marginRight="64dp" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btn1"
         android:layout_width="201dp"
         android:layout_height="47dp"
         android:paddingLeft="30dp"
@@ -75,7 +75,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/tvRegister"
+        android:id="@+id/Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Belum Terdaftar?"

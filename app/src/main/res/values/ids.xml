@@ -2,4 +2,6 @@
 <resources>
     <item name="btnCancel" type="id" />
     <item name="btnRegistrasi" type="id" />
+    <item name="tvNamaKontak" type="id" />
+    <item name="tvNomorTelepon" type="id" />
 </resources>

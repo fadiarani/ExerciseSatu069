@@ -28,5 +28,5 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:divider="@color/blue"
-        android:dividerHeight="1dp"/>
+        android:dividerHeight="1dp" />
 </LinearLayout>

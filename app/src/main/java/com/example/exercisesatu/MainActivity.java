@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity.this.SetValidation();
+                MainActivity.this.startActivity(new Intent(MainActivity.this.getApplicationContext(), DataKontak.class));
+                //MainActivity.this.SetValidation();
             }
         });
         this.Register.setOnClickListener(new View.OnClickListener() {
@@ -54,10 +55,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+}
 
 
 
-    private void SetValidation() {
+   /* private void SetValidation() {
         if (this.edEmail.getText().toString().isEmpty()) {
             this.mailError.setError("Email Tidak Boleh Kosong");
             this.isEmailValid = false;
@@ -84,4 +86,4 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "Login Sukses", 0).show();
         startActivity(new Intent(getApplicationContext(), DataKontak.class));
     }
-}
+}*/

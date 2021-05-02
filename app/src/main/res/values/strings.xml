@@ -27,4 +27,7 @@
     <string name="btnCancel">BATAL</string>
     <string name="btnRegistrasi">DAFTAR</string>
     <string name="pendaftaran">Pendaftaran</string>
+    <string name="notel">Nomor Telepon</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnEdit">Update</string>
 </resources>

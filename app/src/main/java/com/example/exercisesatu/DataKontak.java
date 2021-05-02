@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class DataKontak extends AppCompatActivity {
 
-    TextView tvnama, tvnomor;
+    TextView eNama, tvnomor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,48 +18,48 @@ public class DataKontak extends AppCompatActivity {
 
         String nama = bundle.getString("a");
 
-        tvnama = findViewById(R.id.tvNamaKontak);
+        eNama = findViewById(R.id.tvNamaKontak);
         tvnomor = findViewById(R.id.tvNomorTelepon);
 
         switch (nama) {
             case "Fadia":
-                tvnama.setText("Fadia");
+                eNama.setText("Fadia");
                 tvnomor.setText("081123457768");
                 break;
             case "Rani":
-                tvnama.setText("Rani");
+                eNama.setText("Rani");
                 tvnomor.setText("081123457768");
                 break;
             case "Arya":
-                tvnama.setText("Arya");
+                eNama.setText("Arya");
                 tvnomor.setText("081123457768");
                 break;
             case "Vadillah":
-                tvnama.setText("Vadillah");
+                eNama.setText("Vadillah");
                 tvnomor.setText("081123457768");
                 break;
             case "Rayka":
-                tvnama.setText("Rayka");
+                eNama.setText("Rayka");
                 tvnomor.setText("081123457768");
                 break;
             case "Agustasya":
-                tvnama.setText("Agustasya");
+                eNama.setText("Agustasya");
                 tvnomor.setText("081123457768");
                 break;
             case "Rama":
-                tvnama.setText("Rama");
+                eNama.setText("Rama");
                 tvnomor.setText("081123457768");
                 break;
             case "Ravictor":
-                tvnama.setText("Ravictor");
+                eNama.setText("Ravictor");
                 tvnomor.setText("081123457768");
                 break;
             case "Arga":
-                tvnama.setText("Arga");
+                eNama.setText("Arga");
                 tvnomor.setText("081123457768");
                 break;
-            case "Aprilian":
-                tvnama.setText("Aprilian");
+            case "Aprillian":
+                eNama.setText("Aprilian");
                 tvnomor.setText("081123457768");
                 break;
 
